@@ -12,7 +12,11 @@
  */
 export function echo(word, n) {
   // TODO
-  return word.repeat(n);
+  let result = "";
+  for (let i = 0; i < n; i++) {
+    result += word;
+  }
+  return result;
 }
 
 /**
