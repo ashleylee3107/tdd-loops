@@ -173,7 +173,7 @@ export function getGrowthTime(start, target) {
  */
 export function getCompoundTime(start, rate, target) {
   // TODO
-  if (rate <= 0 || rate <= 0) {
+  if (start <= 0 || rate <= 0) {
     return undefined;
   }
 
